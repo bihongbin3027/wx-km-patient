@@ -1,0 +1,11 @@
+@import "config";
+@import "mixin";
+
+.file, .file-content {
+  padding: .2rem;
+  color: blue;
+  .file-size {
+    font-size: $f-small-size;
+  }
+}
+

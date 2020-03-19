@@ -1,0 +1,30 @@
+@mixin bg-image($url) {
+  background-size: 100% 100%;
+  background-image:url("../images/2x/#{$url}.png");
+  &:active {
+    background-image:url("../images/2x/#{$url}_active.png");
+  }
+  @media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+    background-image: url("../images/3x/#{$url}.png");
+    &:active {
+      background-image:url("../images/3x/#{$url}_active.png");
+    }
+  }
+}
+
+@mixin bg($url) {
+  background-size: 100% 100%;
+  background-image:url("../images/2x/#{$url}.png");
+  @media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+    background-image: url("../images/3x/#{$url}.png");
+  }
+}
+
+@mixin no-wrap {
+  white-space: nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+}
+
+
+

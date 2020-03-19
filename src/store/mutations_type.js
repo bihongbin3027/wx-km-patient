@@ -1,0 +1,13 @@
+export const GET_LOGIN_INFO = 'GET_LOGIN_INFO'; // 获取IM登录信息
+export const GET_MEDIA_INFO = 'GET_MEDIA_INFO'; // 获取多媒体信息
+export const GET_USER_INFO = 'GET_USER_INFO'; // 获取人员信息
+export const GET_SESSION = 'GET_SESSION' // 获取会话
+export const ROOM_STATE = 'ROOM_STATE' // 房间状态
+export const ROOM_INFO = 'ROOM_INFO' // 获取房间信息
+export const CHANGE_ROOM_STATE = 'CHANGE_ROOM_STATE' //修改房间状态
+export const SEND_FILE_STATE = 'SEND_FILE_STATE' // 发送文件状态
+export const SEND_AUDIO_STATE = 'SEND_AUDIO_STATE' // 发送音频消息
+export const SEND_IMAGE_SATTE = 'SEND_IMAGE_SATTE' // 发送图片消息
+export const MESSAGE = 'MESSAGE'
+export const UPDATE_SESSION = 'UPDATE_SESSION' //  更新会话记录
+export const UPDATE_SESSION_COUNT = 'UPDATE_SESSION_COUNT' //更新会话记录数量

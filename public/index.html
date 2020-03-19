@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size:10vmin;">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=no,viewport-fit=cover,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title></title>
+    <script src="./pdf.js"></script>
+    <script src="./pdf.worker.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+    <script>eruda.init()</script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but doctor-app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
